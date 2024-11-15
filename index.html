@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURR CONVERTER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   
+   <main>
+    <div class="container">
+        <marquee><h2><b>Note!  The information only displays from the Last updated Api of the System, The Currency rates  can Be Changed !</b></h2></marquee>
+        <h2>Currency Converter</h2>
+        <form>
+        <div class="amount">
+            <b><p>Enter Amount</p></b>
+            <input value="1" type="text" />
+        </div>
+        <div class="dropDown">
+
+            <div class="From">
+                <p>From</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png"/>
+                    <select name="From">
+                    </select>
+                </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left" id="swapimg" style="cursor:pointer"></i>
+            <div class="To">
+                <p>TO</p>
+            
+                <div class="select-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png"/>
+                    <select name="To">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="msg"><b>1USD = 80INR(Example!)</b></div>
+        <button >Get Exchange rate</button>
+    </form>
+    </div>
+</main>
+    <script src="codes.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
